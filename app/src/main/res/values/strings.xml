@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EX1_JuanCarlosChuquipoma</string>
+    <string name="title">Examen U1 Juan Chuquipoma</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="namePlayer">Jugador: Nombre</string>
+    <string name="numberPlayers">Número de jugadores:</string>
+    <string name="generarCartas">Generar cartas</string>
+    <string name="cartasGeneradas">Cartas generadas:</string>
+    <string name="regresarIncio">Regresar al Incio</string>
+    <string name="ingresaNombre">Ingresa tu nombre</string>
+    <string name="adivinaNumero">Jugar adivina numero</string>
+    <string name="jugarGolpeado">Jugar golpeado</string>
+    <string name="desarrollador">Desarrollado por: Juan Carlos</string>
+    <string name="ingresaIntento">Ingresa tu intento</string>
+    <string name="enviarIntento">Enviar intento</string>
+    <string name="resultado">Resultado:</string>
+    <string name="intentosAnteriores">Intentos anteriores:</string>
+    <string name="btnReiniciar">Reiniciar</string>
+    <string name="btnRegresarIncio">Regresar al Incio</string>
+</resources>

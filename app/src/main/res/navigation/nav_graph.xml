@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/bienvenidaFragment">
+
+    <fragment
+        android:id="@+id/bienvenidaFragment"
+        android:name="com.example.ex1_juancarloschuquipoma.InicioBienvenido"
+        android:label="Pantalla de Bienvenida"
+        tools:layout="@layout/inicio_bienvenido">
+        <action
+            android:id="@+id/action_bienvenidaFragment_to_adivinaNumeroFragment"
+            app:destination="@id/adivinaNumeroFragment" />
+        <action
+            android:id="@+id/action_bienvenidaFragment_to_golpeadoFragment"
+            app:destination="@id/golpeadoFragment" />
+        <argument
+            android:name="argNombreUsuario"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/adivinaNumeroFragment"
+        android:name="com.example.ex1_juancarloschuquipoma.AdivinaNumero"
+        android:label="Jugar Adivina Número"
+        tools:layout="@layout/adivina_numero" >
+        <argument
+            android:name="argNombreUsuario"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/golpeadoFragment"
+        android:name="com.example.ex1_juancarloschuquipoma.JugarGolpeado"
+        android:label="Jugar Golpeado"
+        tools:layout="@layout/jugar_golpeado" >
+        <argument
+            android:name="argNombreUsuario"
+            app:argType="string" />
+    </fragment>
+</navigation>
